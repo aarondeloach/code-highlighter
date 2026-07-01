@@ -1,18 +1,21 @@
-# Shiki Svelte
+# Code Highlighter
 
-A component that renders code with [Shiki](https://github.com/shikijs/shiki) in Svelte.
+A component that renders code with [Shiki](https://github.com/shikijs/shiki) in Svelte apps.
+
+It works on the client side (+page.svelte).
 
 ## Installation
 
-```shell
-npm install shiki-svelte
+```bash
+npm install @aarondeloach/code-highlighter
 ```
 
 ## Usage
 
 ```javascript
+// +page.svelte
 <script>
-    import {CodeHighlighter} from 'shiki-svelte'
+    import {CodeHighlighter} from '@aarondeloach/code-highlighter'
 </script>
 
 <CodeHighlighter code={`<h1>Hello World</h1>`}/>
