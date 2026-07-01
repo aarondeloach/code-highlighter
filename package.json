@@ -1,8 +1,11 @@
 {
 	"name": "@aarondeloach/code-highlighter",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aarondeloach/code-highlighter.git"
+      },
 	"description": "A component that renders code with Shiki in Svelte apps.",
-	"version": "1.0.1",
-    "private": true,
+	"version": "1.0.2",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
