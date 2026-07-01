@@ -1,7 +1,8 @@
 {
 	"name": "@aarondeloach/code-highlighter",
 	"description": "A component that renders code with Shiki in Svelte apps.",
-	"version": "1.0.0",
+	"version": "1.0.1",
+    "private": false,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
